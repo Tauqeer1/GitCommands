@@ -1,0 +1,43 @@
+		/* Local git commands */
+1)git init -> Create a new repository in any folder
+2)git add (name of file to add) -> Adding a file to staging area
+3)git add . -> Adding all files to staging area
+4)git add (--all or --A) -> Adding all files to staging area
+5)git add *.txt -> Adding all only text files to staging area , we can use other file extension as well
+6)git status -> To check the status of the repository
+7)git commit --message ("Write message") -> Commit the file with a message 
+8)git reset (HEAD "filename") -> Unstage the file 
+9)git reset -> Unstage all the files
+10)git rm --cached ("filesname" or  "foldername") -> Unstage the file from the index
+11)git reset --hard HEAD -> Go back to the initial state,lose all the changes we made.
+12)git tag -a (tagNameYouWriteHere) -m ("Write message here") -> Tag are used to tag the important commit
+13)git branch -> We can check all the branches of our repository
+14)git branch (BranchName) -> Create a branch 
+15)git checkout (BranchName) -> Switch to the another branch
+16)git log --graph --decorate --pretty=oneline --abbrev-commit -> check all the log in good (readable) format.
+17)git aliases command is used for creating our own git commands.
+18)git config (level) alias.(alias name) '(your sequence of git commands)'
+19)git checkout -  -> Switch to previous branch where you come from
+20)git merge (branch to merge)
+21)git diff (source branch name)..(target branch name) -> Finding out the difference between two branches.
+22)git stash ->A default description will be added to your stash, and then modifications will be reverted to get back in a clean 		state.
+23)git stash list -> To list actual stashes.
+24)git branch -d (branch name) -> delete the branch 
+
+		/* Remote Git commands */
+1)git push -> Push the code to the master(default) branch.
+2)git push -u orgin (branch name) -> upload our local branch and commit to that branch in git remote repository.
+3)git push origin (branch name) -> push to the remote branch.
+4)git remote show origin  -> Gives the complete information of all local and remote branches.
+5)git fetch -> Download the differences from the remote branch but does not apply them into local branch. 
+6)git pull -> Download and apply the remote changes,(git pull logically equals to git fetch + git merge).
+7)git remote add origin (remote repository url) -> Adding remote repository to a local repository for commiting the code from local      repository to remote repository.
+
+
+
+
+
+
+
+
+
