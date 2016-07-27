@@ -32,6 +32,8 @@
 5)git fetch -> Download the differences from the remote branch but does not apply them into local branch. 
 6)git pull -> Download and apply the remote changes,(git pull logically equals to git fetch + git merge).
 7)git remote add origin (remote repository url) -> Adding remote repository to a local repository for commiting the code from local      repository to remote repository.
+8)git clone (remote repositoy url) -> Cloning the remote repository.
+
 
 
 
