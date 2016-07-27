@@ -22,7 +22,9 @@
 21)git diff (source branch name)..(target branch name) -> Finding out the difference between two branches.
 22)git stash ->A default description will be added to your stash, and then modifications will be reverted to get back in a clean 		state.
 23)git stash list -> To list actual stashes.
-24)git branch -d (branch name) -> delete the branch 
+24)git branch -d (branch name) -> delete the branch. 
+25)git show -> View the commit details.
+26)git log -> View all the commits.
 
 		/* Remote Git commands */
 1)git push -> Push the code to the master(default) branch.
